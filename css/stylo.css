@@ -2,20 +2,18 @@
 
 *{
     letter-spacing: 2px;    
-  } 
+    /* color: #d3d5fd; */ 
+  }     
 
-html{
-    height: 100%;
-    width: 100%;
-    color: #d3d5fd;
-}
-  
-body {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    
-}  
+.header{
+  width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/sushi_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} 
 
 nav{
     background-color: #1d1919;
